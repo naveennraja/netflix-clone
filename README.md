@@ -1,5 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+This was created by an inspiration from 2 youtubers (Qazi & Sonny) who were live streaming and saw their video. It was really fun working on this. Credits to them they are doing something which i had never seen (live stream coding).
 ## Available Scripts
 
 In the project directory, you can run:
