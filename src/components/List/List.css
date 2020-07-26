@@ -1,0 +1,28 @@
+.row h3 {
+     color: #fff;
+     /* text-transform: uppercase; */
+}
+.movies__list {
+     display: flex;
+     overflow-y: hidden;
+     padding: 25px;
+}
+.movies__list::-webkit-scrollbar {
+     display: none;
+}
+.movie__thumbnail {
+     width: 100%;
+     object-fit: contain;
+     max-height: 150px;
+     transition: transform 1s;
+     margin-right: 5px;
+}
+.movie__thumbnail:hover {
+     transform: scale(1.18);
+}
+.backdrop__thumbnail {
+     max-height: 250px;
+}
+.backdrop__thumbnail:hover {
+     transform: scale(1.2);
+}

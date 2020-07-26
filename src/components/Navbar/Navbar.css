@@ -1,0 +1,26 @@
+.navbar {
+     position: fixed;
+     top: 0;
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+     padding: 1rem;
+     z-index: 1;
+     transition: all 0.5s;
+     height: 25px;
+}
+.dim__navbar {
+     background-color: rgba(22, 22, 22, 0.5);
+}
+.navbar .logo {
+     position: fixed;
+     left: 1rem;
+     width: 100px;
+     object-fit: contain;
+}
+.navbar .profile {
+     position: fixed;
+     right: 1rem;
+     width: 30px;
+     object-fit: contain;
+}
